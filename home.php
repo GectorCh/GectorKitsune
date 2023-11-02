@@ -1,7 +1,6 @@
 <?php 
     include "header.php";
 ?>
-<img src="<?=$_SESSION['foto']?>"  alt="<?=$_SESSION['nama']?>" width="130" height="128"> 
 <h2>Selamat Datang <?=$_SESSION['nama']?> di cafe Kitsune</h2>
 <h5>Anda Login Sebagai : <?=$_SESSION['role']?> </h5>
 <style>
