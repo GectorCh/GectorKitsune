@@ -1,14 +1,14 @@
 <?php 
     include "header.php";
 ?>
-<h2>Selamat Datang <?=$_SESSION['nama']?> di cafe Kitsune</h2>
+<h2 style="background-color:rgb(255, 255, 255);">Selamat Datang Gector di GCPetro</h2>
 <h5>Anda Login Sebagai : <?=$_SESSION['role']?> </h5>
 <style>
 body {
-  background-image: url('12.gif.gif');
+  background-image: url('backhome.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 </style>
 <?php
