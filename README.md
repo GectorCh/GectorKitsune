@@ -1,7 +1,7 @@
 Main : 
-https://gcpetro.my.id
+https://kitsuneai.my.id
 Cloud Server : 
-https://gcpetro.my.id/gectorcloud
+https://kitsuneai.my.id/gectorcloud
 
 ![Screenshot 2023-10-18 202517](https://github.com/GectorCh/GCPetro/assets/93502005/d8653f5b-1298-41f7-b5e6-f8a18deca720)
 ![Screenshot 2023-10-21 091557](https://github.com/GectorCh/GCK/assets/93502005/b2af43d0-549c-41fc-9168-bda8894aba10)
