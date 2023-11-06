@@ -1,0 +1,17 @@
+1. open windows powershell
+2. type python
+3. install python latest release in windows store
+4. after that, type exit()
+5. type cd FOLDER_LOCATION
+6. type pip install pynput mido
+7. close windows powershell
+8. open windows powershell as administrator
+9. type cd FOLDER_LOCATION
+10. type python midi.py
+
+and then open genshin impact login with your account open holy lyre and click TAB+1 or TAB+2 or TAB+3 or TAB+4
+to stop it clik SPACE
+
+FILE_LOCATION = it means your downloaded file from my github, copy the location
+example = C:\Users\Ashera\Downloads\genshin_scripts-main
+THIS IS JUST EXAMPLE ----> cd C:\Users\Ashera\Downloads\genshin_scripts-main <----
