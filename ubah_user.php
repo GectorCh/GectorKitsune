@@ -6,10 +6,10 @@
 </head>
 <style>
 body {
-  background-image: url('12.gif.gif');
+  background-image: url('backhome.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 </style>
 <body>
@@ -27,7 +27,7 @@ body {
        
         Role : 
         <?php 
-        $arr_role=array('admin'=>'Admin','kasir'=>'Kasir','manager'=>'manager');
+        $arr_role=array('admin'=>'Admin','karyawan'=>'Karyawan');
         ?>
         <select name="role" class="form-control">
             <option></option>
