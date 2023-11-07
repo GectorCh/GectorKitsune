@@ -6,10 +6,10 @@
 </head>
 <style>
 body {
-  background-image: url('tower.gif');
+  background-image: url('backhome.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 </style>
 <body>
@@ -17,7 +17,7 @@ body {
     <div class="col-md"></div>
     <div class="col-md rounded bg-light" style="box-shadow: 4px 4px 5px -4px;padding:10px">
         <form action="proses_login.php" method="post">
-          <h3 style="align:center;">Login into GCPetro</h3>
+          <h3 style="align:center;">Log in into GCPetro</h3>
           Username:
           <input type="text" name="username" value="" class="form-control">
           Password:
