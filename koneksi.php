@@ -1,5 +1,5 @@
 <?php
-$conn=mysqli_connect('localhost','gcpm3199','SujtZNAPtDq448','gcpm3199_gcpetro');
+$conn=mysqli_connect('localhost','kitw4662','sSgb2burKq6t78','kitw4662_gcpetro');
 /* check connection */
 if (mysqli_connect_errno()) {
     printf("Connect failed: %s\n", mysqli_connect_error());
