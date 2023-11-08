@@ -39,4 +39,4 @@ session_start();
         </div>
       </div>
     </nav>
-  <div class="p-3 bg-success rounded-1" style="margin-top:20px">
+  <div class="p-3 border-success-subtle rounded-1" style="margin-top:20px">
