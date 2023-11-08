@@ -6,7 +6,7 @@
 </head>
 <style>
 body {
-  background-image: url('backhome.jpg');
+  background-image: linear-gradient(rgba(0,80,0,0.65), rgba(0,80,0,0.65)),  url('backhome.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
