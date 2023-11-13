@@ -125,8 +125,8 @@ nav ul li a{
           <img src="p02.png" class="logo">
         <ul>
             <li><a href="index.php">Home</a></li>
-            <li><a href="tampil_user.php">Tampil User</a></li>
-            <li><a href="tampil_paket.php">Tampil Merk</a></li>
+            <li><a href="tampil_user.php">User Management</a></li>
+            <li><a href="tampil_paket.php">Product Management</a></li>
             <li><a href="gectorcloud/index.php">GectorCloud</a></li>
             <li><a href="logout.php">Logout</a></a></li>
         </ul>
