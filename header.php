@@ -1,16 +1,17 @@
-<!-- <?php 
+<?php 
 session_start();
     if($_SESSION['status_login']!=true){
         header('location: login.php');
     }
 ?>
- -->
+ 
 <!DOCTYPE html>
 <html>
 <head>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&family=Poppins:wght@100;300;500&family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
     <title></title>
 </head>
 <style>
@@ -20,12 +21,7 @@ session_start();
     font-family: "Poppins", sans-serif;
     box-sizing
   }
-  .hero{
-    width: 100%;
-    min-height: 100vh;
-    background: #eceaff;
-    color: #252525;
-}
+
 nav{
     background: #1a1a1a;
     width: 80%;
@@ -36,11 +32,11 @@ nav{
     position: relative;
 }
 .logo{
-    width: 100px;
-    height: 40px;
+    width: 120px;
+    height: 78px;
 }
 .pic{
-    width: 40px;
+    width: 35px;
     border-radius: 50%;
     cursor: pointer;
     margin-left:  30px;
@@ -126,12 +122,13 @@ nav ul li a{
 <body>
 <div class="hero">
         <nav>
-          <img src="p01.jpg" class="logo">
+          <img src="p02.png" class="logo">
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">stuff</a></li>
-            <li><a href="#">stuff2</a></li>
-            <li><a href="#">stuff3</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="tampil_user.php">Tampil User</a></li>
+            <li><a href="tampil_paket.php">Tampil Merk</a></li>
+            <li><a href="gectorcloud/index.php">GectorCloud</a></li>
+            <li><a href="logout.php">Logout</a></a></li>
         </ul>
         <img src="p01.jpg" class="pic" onclick="toggleMenu()">
         
@@ -171,102 +168,6 @@ nav ul li a{
         menu.classList.toggle("open-menu")
       }
     </script>
-<?php 
-    }
 
-?>
 
-<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light" style="box-shadow: 4px 4px 5px -4px; ">
-      <div class="container-fluid">
-        <a class="navbar-brand mb-0 h1" href="home.php">Coffee Time</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" style="text-size-adjust: 20px" aria-current="page" href="home.php">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="tampil_user.php">Tampil User</a>
 
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="tampil_menu.php">Tampil Menu</a>
-            </li>
-            <li>
-              <a class="nav-link" aria-current="page" href="tampil_meja.php">Tampil Meja</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="tambah_user.php">Tambah User</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="tambah_menu.php">Tambah Menu</a>
-            </li>
-            <li>
-              <a class="nav-link" aria-current="page" href="tambah_meja.php">Tambah Meja</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="order_menu.php">Order</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="histori_order.php">History</a>
-            </li>
-           
-            
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="logout.php">Logout</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  <div class="p-3 bg-success rounded-1" style="margin-top:20px"> -->
-
-<!-- <?php
-    if($_SESSION['role'] == 'Cashier'){
-       
-?>
-<!DOCTYPE html>
-<html>
-<head>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <title></title>
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="box-shadow: 4px 4px 5px -4px;">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="home.php">Coffee Time</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="home.php">Home</a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="tampil_menu.php">Tampil Menu</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="tambah_menu.php">Tambah Menu</a>
-            </li>
-            <li>
-              <a class="nav-link" aria-current="page" href="tampil_meja.php">Tampil Meja</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="order_menu.php">Order</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="histori_order.php">History</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="logout.php">Logout</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  <div class="p-3 bg-warning rounded-1" style="margin-top:20px">
-
- -->
