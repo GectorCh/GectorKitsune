@@ -4,10 +4,7 @@ session_start();
         header('location: login.php');
     }
 ?>
-<?php
-    if($_SESSION['role'] == 'Admin'){
-       
-?> -->
+ -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -129,20 +126,20 @@ nav ul li a{
 <body>
 <div class="hero">
         <nav>
-          <img src="pics/Spoderman.jpg" class="logo">
+          <img src="p01.jpg" class="logo">
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">stuff</a></li>
             <li><a href="#">stuff2</a></li>
             <li><a href="#">stuff3</a></li>
         </ul>
-        <img src="pics/Spoderman.jpg" class="pic" onclick="toggleMenu()">
+        <img src="p01.jpg" class="pic" onclick="toggleMenu()">
         
         <div class="menu-wrap" id="menu">
             <div class="menu">
                 <div class="user">
-                    <img src="pics/Spoderman.jpg">
-                    <h2>spider</h2>
+                    <img src="p01.jpg">
+                    <h2><?=$_SESSION['nama']?></h2>
                     
                 </div>
                 <hr>
@@ -271,8 +268,5 @@ nav ul li a{
       </div>
     </nav>
   <div class="p-3 bg-warning rounded-1" style="margin-top:20px">
-  <?php 
-    }
 
-?>
  -->
