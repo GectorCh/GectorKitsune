@@ -1,6 +1,13 @@
 <?php 
     include "header.php";
 ?>
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<lnk rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&family=Poppins:wght@100;300;500&family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+    <title></title>
+</head>
+    
 <div class= "box">
 <h2 style="color: lightgray;">Selamat Datang <?=$_SESSION['nama']?> di GCPetro</h2>
 <h5>Anda Login Sebagai : <?=$_SESSION['role']?> </h5>
