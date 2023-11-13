@@ -24,7 +24,7 @@ session_start();
 
 nav{
     background: #1a1a1a;
-    width: 80%;
+    width: 100%;
     padding: 10px 10%;
     display: flex;
     align-items: center;
