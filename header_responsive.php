@@ -11,6 +11,9 @@ session_start();
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <lnk rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&family=Poppins:wght@100;300;500&family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <title></title>
 </head>
 <style>
@@ -34,7 +37,7 @@ session_start();
   }
   header .logo{
     width: 100px;
-    height: 40px;
+    height: 71px;
   }
   header .pic{
     width: 40px;
@@ -45,23 +48,27 @@ session_start();
   header .navbar ul{
     list-style: none;
     width: 100%;
+    text-decoration:none;
   }
   header .navbar ul li{
     display: inline-block;
     position: relative;
     float: left;
-    top: 9px;;
+    top: 9px;
+    text-decoration:none;
   }
   header .navbar ul li a{
     font-size: 20px;
     padding: 10px;
     color: #f0f0f0;
-    display: black;
+    display: black
+    text-decoration:none;
     
   }
   header .navbar ul li a:hover{
     color: #437d6d;
     transition: 0.5s;
+    
   }
   #menu-bar{
     display:none;
@@ -100,23 +107,22 @@ session_start();
 </style>
 <body>
 <header>
-  <img src="pics/Spoderman.jpg" alt="spider" class="logo">
+  <img src="p02.png" alt="PetroSida" class="logo">
   <input type="checkbox" id="menu-bar">
   <label for="menu-bar">
-    <img src="pics/Spoderman.jpg" alt="spider" class="pic">
+    <img src="001p.png" alt="User" class="pic">
   </label>
 
   <nav class="navbar">
       <ul>
-        <li><a href="#">test</a></li>
-        <li><a href="#">test2</a></li>
-        <li><a href="#">test3</a></li>
-        <li><a href="#">test4</a></li>
-        <li><a href="#">test5</a></li> 
-        <img src="pics/Spoderman.jpg" alt="spider" class="pic">
+        <li><a href="index.php"class="nav-link">Home</a></li>
+        <li><a href="tampil_user.php"class="nav-link">User Management</a></li>
+        <li><a href="tampil_paket.php"class="nav-link">Product Management</a></li>
+        <li><a href="gectorcloud/index.php"class="nav-link">GectorCloud</a></li>
+        <li><a href="logout.php"class="nav-link">Logout</a></li> 
+        <img src="001p.png" alt="User" class="pic">
       </ul>
       
   </nav>
 </header>
-
 
