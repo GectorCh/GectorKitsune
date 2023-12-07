@@ -14,8 +14,9 @@
 </head>
 <style>
     .container{
-        
-       
+        position: relative;
+        z-index: 1;
+
     }
     .main{
         padding:15px;
@@ -25,19 +26,29 @@
         color:white;
         height:100%;
     }
-    .sidebar a{
-        margin-left:10px;
-        display:block;
-        color:white;
+    .sidebar ul{
+        align-items: center;
+        list-style: none;
+        width: 100%;
+    }
+    .sidebar ul li{
+        margin-right:25px;
+        display: block;
         padding-bottom:20px;
         font-size:15px;
+    }
+    .sidebar ul li a{
+        color: white;
         text-decoration:none;
+    }
+    .sidebar ul li a:hover{
+        color: #437d6d;
+        transition: 0.5s;
     }
     .card{
         position: relative;
         display: flex;
         flex-direction: column;
-        z-index: -10;
     }
     .content{
         background: whitesmoke;
@@ -57,9 +68,11 @@
                             <div class="mt-3">
                             <h5 class="admin"><?=$_SESSION['role']?></h5>
                             <h3><?=$_SESSION['nama']?></h3>
-                            <a href="">Change Password</a>
-                            <a href="">Support</a>
-                            <a href="logout.php">Signout</a>
+                            <ul>
+                                <li><a href="#" class="nav-link">Change Password</a></li>
+                                <li><a href="#" class="nav-link">help</a></li>
+                                <li><a href="#" class="nav-link">signout</a></li>
+                            </ul>
                             </div>
                         </div>
                     </div>
