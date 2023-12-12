@@ -70,14 +70,6 @@
         cursor: pointer;
         display: none;
     }
-    /* .checkbtn img{
-        width: 40px;
-        border-radius: 50%;
-        float: right;
-        cursor: pointer;
-        margin-left: 120px;
-        
-    } */
     #check{
         display: none;
     }
@@ -122,6 +114,11 @@
             left: 0;
         }
     }
+    section{
+        background: url(cool-background.jpg) no-repeat; 
+        background-size: cover;
+        height: calc(100vh - 80px);
+    }
 
 </style>
 <body>
@@ -139,5 +136,6 @@
             <li><a href="#">Profile</a></li>
         </ul>
     </nav>
+    <section></section>
 </body>
 </html>
