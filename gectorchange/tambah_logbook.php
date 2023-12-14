@@ -12,6 +12,7 @@
 <body>
     
     <h2>Laporan Feeding</h2>
+    <h7 style="margin-right:100px;">Currently login as : <?=$_SESSION['role']?></h7>
     <form action="proses_tambah_logbook.php" method="post">
          Nama Produk :
          <input type="text" name="nama_produk" value="" class="form-control">

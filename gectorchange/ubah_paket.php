@@ -14,7 +14,8 @@
     $qry_get_merek=mysqli_query($conn,"select * from merek where id_merek = '".$_GET['id_merek']."'");
     $dt_merek=mysqli_fetch_array($qry_get_merek);
     ?>
-    <h3>Ubah merek</h3>
+    <h3>Ubah Product</h3>
+    <h7 style="margin-right:100px;">Currently login as : <?=$_SESSION['role']?></h7>
     <form action="proses_ubah_paket.php" method="post">
         <input type="hidden" name="id_merek" value= "<?=$dt_merek['id_merek']?>">
         Nama Merek :

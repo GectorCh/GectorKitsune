@@ -15,6 +15,7 @@
 
 <body>
     <h3 style="background-color:rgb(255, 255, 255);">LogBook Packing</h3>
+    <h7 style="margin-right:100px;">Currently login as : <?=$_SESSION['role']?></h7>
     <a style="margin-right:10px;" href="tambah_logbookpkg.php" class="btn btn-primary">+</a>
     <a href='cetakpkg.php?id=".$data_lgbook['id_lgbook']."' class='btn btn-warning'>🖨️</a>
     <table class="table table-hover table-striped">
@@ -55,7 +56,7 @@
                     <td><?=$data_lgbookpkg['volume_pkg']?></td>
                     <td><?=$data_lgbookpkg['shiftspkg']?></td>
                     <td><?=$data_lgbookpkg['lcatatanpkg']?></td>
-                    <td><?=$button_cetak?> <a href="ubah_logbookpkg.php?id_lgbookpkg=<?=$data_lgbookpkg['id_lgbookpkg']?>" class="btn btn-success">⚙️</a>
+                    <td> <a href="ubah_logbookpkg.php?id_lgbookpkg=<?=$data_lgbookpkg['id_lgbookpkg']?>" class="btn btn-success">⚙️</a>
                     <a style="margin-left:10px;" href="hapus_logbookpkg.php?id=<?=$data_lgbookpkg['id_lgbookpkg']?>" onclick="return confirm('Apakah anda yakin menghapus data ini?')" class="btn btn-danger">❎</a></td>
                 </tr>
                 <?php 
@@ -84,6 +85,7 @@
 
 <body>
     <h3 style="background-color:rgb(255, 255, 255);">LogBook Packing</h3>
+    <h7 style="margin-right:100px;">Currently login as : <?=$_SESSION['role']?></h7>
     <a style="margin-right:10px;" href="tambah_logbookpkg.php" class="btn btn-primary">+</a>
     <a href='cetakpkg.php?id=".$data_lgbook['id_lgbook']."' class='btn btn-warning'>🖨️</a>
     <table class="table table-hover table-striped">

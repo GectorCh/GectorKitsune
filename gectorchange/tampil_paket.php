@@ -15,6 +15,7 @@
 
 <body>
     <h3 style="background-color:rgb(255, 255, 255);">Data Merk</h3>
+    <h7 style="margin-right:100px;">Currently login as : <?=$_SESSION['role']?></h7>
     <a style="margin-right:50px;" href="tambah_paket.php" class="btn btn-primary">+</a>
     <table class="table table-hover table-striped">
         <thead>
@@ -24,7 +25,7 @@
                 <th>Nama Merk</th>
                 <th>Jenis Merk</th>
                 
-                <th>AKSI</th>
+                <th></th>
             </tr>
         </thead>
         <tbody>
@@ -70,8 +71,8 @@
 </head>
 
 <body>
-    <h3 style="background-color:rgb(255, 255, 255);">Data Merk</h3>
-    
+    <h3 style="background-color:rgb(255, 255, 255);">Product List</h3>
+    <h7 style="margin-right:100px;">Currently login as : <?=$_SESSION['role']?></h7>
     <table class="table table-hover table-striped">
         <thead>
             <tr>

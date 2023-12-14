@@ -15,6 +15,7 @@
 
 <body>
     <h3 style="background-color:rgb(255, 255, 255);">LogBook Feeding</h3>
+    <h7 style="margin-right:100px;">Currently login as : <?=$_SESSION['role']?></h7>
     <a style="margin-right:10px;" href="tambah_logbook.php" class="btn btn-primary">+</a>
     <a href='cetak.php?id=".$data_lgbook['id_lgbook']."' class='btn btn-warning'>🖨️</a>
     <table class="table table-hover table-striped">
@@ -87,7 +88,8 @@
 
 <body>
     <h3 style="background-color:rgb(255, 255, 255);">LogBook Feeding</h3>
-    <a style="margin-right:50px;" href="tambah_logbook.php" class="btn btn-primary">+</a>
+    <h7 style="margin-right:100px;">Currently login as : <?=$_SESSION['role']?></h7>
+    <a style="margin-right:10px;" href="tambah_logbook.php" class="btn btn-primary">+</a>
     <a href='cetak.php?id=".$data_lgbook['id_lgbook']."' class='btn btn-warning'>🖨️</a>
     <table class="table table-hover table-striped">
         <thead>

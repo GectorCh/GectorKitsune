@@ -16,6 +16,7 @@
     $data_user=mysqli_fetch_array($qry_get_user);
     ?>
     <h3>Ubah User</h3>
+    <h7 style="margin-right:100px;">Currently login as : <?=$_SESSION['role']?></h7>
     <form action="proses_ubah_user.php" method="post">
         <input type="hidden" name="id_user" value="<?=$data_user['id_user'] ?>">
         Nama Lengkap :

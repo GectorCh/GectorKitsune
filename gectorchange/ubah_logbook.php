@@ -15,6 +15,7 @@
     $data_lgbook=mysqli_fetch_array($qry_get_lgbook);
     ?>
     <h3>Ubah Laporan Feeding</h3>
+    <h7 style="margin-right:100px;">Currently login as : <?=$_SESSION['role']?></h7>
     <form action="proses_ubah_logbook.php" method="post">
         <input type="hidden" name="id_lgbook" value= "<?=$data_lgbook['id_lgbook']?>">
         Nama Produk :

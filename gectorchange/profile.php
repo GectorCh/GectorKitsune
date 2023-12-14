@@ -64,12 +64,13 @@
                     </div>
                 </div>
                 <div class="col-md-8 mt-1">
-                    <div class="card mb-3 content">
-                        <h1 class="n-3 pt-3">
-                            Nama Lengkap
-                        </h1>
-                        <div class="col-md-9 text-secondary">
-                            <?=$_SESSION['fullname_user']?> 
+                    <div class="col-md-8 mt-1">
+                     <div class="row">
+                        <div class="col-md-3">
+                            <h5>Nama Lengkap</h5>
+                        </div>
+                        <div class="col-md-3 text-secondary">
+                            <?=$_SESSION['fullname_user']?>
                         </div>
                         <hr>
                     <div class="row">

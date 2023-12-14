@@ -17,7 +17,7 @@
     <title></title>
 </head>
 
-<h2 style="color: lightgray;">Selamat Datang <?=$_SESSION['role']?> <?=$_SESSION['nama']?> di GCPetro</h2>
+
 <div class="container">
         <div class="main">
             <div class="row">
@@ -73,7 +73,7 @@
     <title></title>
 </head>
 
-<h2 style="color: lightgray;">Selamat Datang <?=$_SESSION['role']?> <?=$_SESSION['nama']?> di GCPetro</h2>
+
 <div class="container">
         <div class="main">
             <div class="row">

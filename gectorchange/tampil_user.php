@@ -16,6 +16,7 @@
 
 <body>
     <h3 style="background-color:rgb(255, 255, 255);">Data Staff</h3>
+    <h7 style="margin-right:100px;">Currently login as : <?=$_SESSION['role']?></h7>
     <a style="margin-right:50px;" href="tambah_user.php" class="btn btn-primary">+</a>
     <table class="table table-hover table-striped">
         <thead>
@@ -28,7 +29,7 @@
                 <th>ALAMAT</th>
                 <th>USERNAME</th>
                 <th>ROLE</th>
-                <th>AKSI</th>
+                <th></th>
             </tr>
         </thead>
         <tbody>

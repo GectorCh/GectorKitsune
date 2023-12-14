@@ -12,6 +12,7 @@
 <body>
     
     <h2>Packing</h2>
+    <h7 style="margin-right:100px;">Currently login as : <?=$_SESSION['role']?></h7>
     <form action="proses_tambah_logbookpkg.php" method="post">
          Nama Produk :
          <input type="text" name="nama_pkg" value="" class="form-control">
